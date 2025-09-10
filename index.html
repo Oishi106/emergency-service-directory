@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Emergency Service Directory</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/940b47f1bf.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    
+
+
+    <!-- navbar -->
+    <nav class="container  w-full bg-[#FFFFFF] flex justify-between items-center px-3 py-4 mx-auto ">
+        <div class="lg:flex  gap-4 items-center">
+            <img class="h-[40px] " src="./assets/logo.png" alt="">
+            <h1 class="text-[#006747] font-bold">Emergency <br> Service</h1>
+        </div>
+        <div class=" flex flex-col  lg:flex-row gap-2 lg:gap-4 " >
+
+            <div class=" h-[40px] w-[80px] flex items-center justify-center gap-2 bg-[#41FF6B1A] rounded-[16px]">
+                <span id="heart-count" class="font-bold">0</span>
+                <img id="heart-btn" class="h-7 " src="./assets/heart.png" alt="">
+
+            </div>
+            <div class="flex items-center justify-center gap-2 h-[40px] w-[75px] bg-[#41FF6B1A] rounded-[16px]">
+                <span id="main-coin" class="font-bold">100</span>
+                <img class="h-6" src="./assets/coin.png" alt="">
+            </div>
+            <div class="flex items-center justify-center gap-2 h-[40px] w-[80px] bg-[#00A63E] rounded-[16px]">
+                <span id="copyCount" class="font-bold items-center text-white">2 Copy</span>
+
+            </div>
+        </div>
+
+
+    </nav>
+
+
+<script src="./script.js"></script>
+
 </body>
+
 </html>
