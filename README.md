@@ -34,13 +34,13 @@ Local authorities, NGOs, or community organizers who want to maintain an open di
 
 - Centralized dataset for emergency service records.
 
-- Easy to update: adding, editing, or removing entries. (If you have an admin or backend — you can mention it here.)
+- Easy to update: adding, editing, or removing entries. 
 
 ## Offline or Bookmark Capability
 
 - Users can bookmark the directory or save key contacts for future reference.
 
-- (If implemented) Potential for offline access or caching for faster load in low connectivity.
+- Potential for offline access or caching for faster load in low connectivity.
 
 ## Accessibility Features
 
